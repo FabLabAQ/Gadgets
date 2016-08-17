@@ -30,7 +30,7 @@
 // #define char_! 0b01000100010000000100
 
 // where does our characterMap start in the ASCII code
-#define MAP_START      32
+// #define MAP_START      32
 
 #define DISPLAY_WIDTH  4
 #define DISPLAY_HEIGHT 5
@@ -39,7 +39,7 @@
 #define SPEED          12
 
 // the text to display
-#define DISPLAY_STRING "HELLO WORLD  "
+// #define DISPLAY_STRING "HELLO WORLD  "
 
 #define STRING_LENGTH 9
 
@@ -93,6 +93,7 @@ void renderString(int offset) {
 void renderCharacter(unsigned long graphic, int charOffset) {
   if (charOffset <= -DISPLAY_WIDTH || charOffset > DISPLAY_WIDTH) {
     // off the 'screen' nothing to do
+    delay(100);
     return;
   }
 
@@ -106,7 +107,7 @@ void renderCharacter(unsigned long graphic, int charOffset) {
 }
 
 // light a pixel at the given coordinates
-void setPixel(byte x, byte y, boolean ledStatus) {
+void setPixel(byte x, byte y, bool ledStatus) {
   if (x >= 0 && x < DISPLAY_WIDTH) {
     if (y <= x) {
       x++;
@@ -116,7 +117,7 @@ void setPixel(byte x, byte y, boolean ledStatus) {
 }
 
 // turn on the pins to light a LED
-void setLed(byte vin, byte gnd, boolean ledStatus) {
+void setLed(byte vin, byte gnd, bool ledStatus) {
   delay(1);
 //  pinMode(0, INPUT); 
 //  pinMode(1, INPUT); 
