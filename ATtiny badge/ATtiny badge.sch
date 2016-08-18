@@ -896,6 +896,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,24.0877,39.5012,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
