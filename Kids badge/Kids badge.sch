@@ -1769,7 +1769,7 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="BATT" library="Itead_BP_110825.lbr" deviceset="BATTERY_1236_C" device="" value="BATTERY_1236_C"/>
+<part name="BATT" library="Itead_BP_110825.lbr" deviceset="BATTERY_1236_C" device="" value=""/>
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
 <part name="LED2" library="led" deviceset="LED" device="5MM"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X3" device=""/>

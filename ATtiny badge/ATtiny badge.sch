@@ -711,11 +711,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device="" value="0  "/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device="" value="1  "/>
-<part name="JP4" library="pinhead" deviceset="PINHD-1X1" device="" value="2  "/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X1" device="" value="3  "/>
-<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device="" value="4  "/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device="" value="0"/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device="" value="1"/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X1" device="" value="2"/>
+<part name="JP5" library="pinhead" deviceset="PINHD-1X1" device="" value="3"/>
+<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device="" value="4"/>
 <part name="JP7" library="pinhead" deviceset="PINHD-1X1" device="" value="V+"/>
 <part name="JP8" library="pinhead" deviceset="PINHD-1X1" device="" value="GND"/>
 <part name="JP9" library="pinhead" deviceset="PINHD-1X3" device="" value="ON"/>
