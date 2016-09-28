@@ -5,10 +5,10 @@
 #define DISPLAY_HEIGHT 5
 
 // "pixels" per second
-#define SPEED          12
+#define SPEED          8
 
 // the text to display
-#define DISPLAY_STRING "HELLO WORLD  "
+#define DISPLAY_STRING "  FAB LAB AQ"
 
 
 // maps characters to their 4x5 grid 
@@ -61,13 +61,13 @@ void setPixel(byte x, byte y, boolean ledStatus) {
     if (y <= x) {
       x++;
     }
-    setLed(y, x, ledStatus);
+    setLed(4-x, 4-y, ledStatus);
   }
 }
 
 // turn on the pins to light a LED
 void setLed(byte vin, byte gnd, boolean ledStatus) {
-  delay(1);
+  delayMicroseconds(1000);
   pinMode(0, INPUT); 
   pinMode(1, INPUT); 
   pinMode(2, INPUT); 
