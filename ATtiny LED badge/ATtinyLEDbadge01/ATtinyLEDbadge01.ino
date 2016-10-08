@@ -8,7 +8,7 @@
 #define SPEED          8
 
 // the text to display
-#define DISPLAY_STRING "  FABLABAQ"
+#define DISPLAY_STRING "FABLABAQ"
 
 
 // maps characters to their 4x5 grid 
