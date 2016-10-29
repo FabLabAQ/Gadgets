@@ -82,11 +82,11 @@ void setLed(byte vin, byte gnd, boolean ledStatus) {
   delayMicroseconds(1000);
   
   if(ledStatus) {
-    DDRB = (B00000001 << vin) | (B00000001 << gnd);
-    PORTB = B00000001 << vin;
+    DDRB = (0x01 << vin) | (0x01 << gnd);
+    PORTB = 0x01 << vin;
   }
   else {
-    DDRB = B00000000;
+    DDRB = 0x00;
   }
 }
 
