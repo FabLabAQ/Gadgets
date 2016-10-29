@@ -1,6 +1,6 @@
-# Merchandising
+## Merchandising
 
-# [Tutorial](http://www.fablaquila.org/tutorial-spille)
+# [Tutorial](http://www.fablaquila.org/tutorial/come-assemblare-spille-circuito/)
 
 ## Kids LED badge
 
