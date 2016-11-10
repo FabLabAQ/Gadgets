@@ -35,7 +35,7 @@ const int displayHeight = 5;
 const unsigned int timeout = 130;
 
 const unsigned long displayString[] = {char_F, char_A, char_B, char_L, char_A, char_B, char_A, char_Q};
-const int stringLength = sizeof(displayString);
+const int stringLength = sizeof(displayString)/4;
 
 // The offset of our string in the display
 int offset = 0;
@@ -44,10 +44,8 @@ unsigned long currentMillis = 0;
 
 // render the string on the given offset
 void renderString(int offset) {
-  int index = 0;
-  while (displayString[index]) {
+  for(byte index=0; index<stringLength; index++){
     renderCharacter(displayString[index], offset - index * (displayWidth + 1));
-    index++;
   }
 }
 
