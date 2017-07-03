@@ -2,6 +2,16 @@
 
 # [Tutorial](http://www.fablaquila.org/tutorial/come-assemblare-spille-circuito/)
 
+## Ladybug bristlebot
+
+### top
+
+![alt text](Ladybug/top.png)
+
+### bottom
+
+![alt text](Ladybug/bot.png)
+
 ## Kids LED badge
 
 ### top
