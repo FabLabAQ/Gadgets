@@ -1,3 +1,20 @@
+/*
+    (C)2016 FabLabAQ info@fablaquila.org
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include "charactermap.h"
 
 const int displayWidth = 4;
@@ -6,8 +23,21 @@ const int displayHeight = 5;
 // between pixels
 const unsigned int timeout = 130;
 
-const unsigned long displayString[] = {char_F, char_A, char_B, char_L, char_A, char_B, char_A, char_Q};
-const int stringLength = sizeof(displayString)/4;
+constexpr char displayString[] = "FABLABAQ";
+constexpr byte stringLength = sizeof(displayString);
+
+constexpr unsigned long bitMapChar(char asciiChar) {
+  return alphabet[asciiChar +32];
+}
+
+unsigned long displayArray[stringLength];
+
+// what we would like to do:
+//for (byte iterator=0; iterator<stringLength; iterator++) {
+//  byte character = displayString[iterator];
+//  displayArray[iterator] = alphabet[character];
+//}
+
 
 // The offset of our string in the display
 int offset = 0;
@@ -17,7 +47,7 @@ unsigned long currentMillis = 0;
 // render the string on the given offset
 void renderString(int offset) {
   for(byte index=0; index<stringLength; index++){
-    renderCharacter(displayString[index], offset - index * (displayWidth + 1));
+    renderCharacter(displayArray[index], offset - index * (displayWidth + 1));
   }
 }
 
