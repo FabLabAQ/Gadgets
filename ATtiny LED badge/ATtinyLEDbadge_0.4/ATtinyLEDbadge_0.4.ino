@@ -21,6 +21,10 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+#ifndef __AVR_ATtiny13__
+	#error Selezionare ATtiny13 da: Strumenti -> Schede
+#endif
+
 // Character set
 PROGMEM const unsigned long alphabet[] = {
 	0b00000000000000000000,	// 32 space
