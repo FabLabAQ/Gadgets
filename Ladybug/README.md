@@ -2,23 +2,13 @@
 
 ### Final version images
 
-![Ladybug final livery](Ladybug/ladybug_final.jpg)
-![Ladybug vs spinnert](Ladybug/ladybug_vs_spinner.gif)
+![Ladybug final livery](ladybug_final.jpg)
+![Ladybug vs spinner](ladybug_vs_spinner.gif)
 
 ### top
 
-![alt text](Ladybug/top.png)
+![alt text](top.png)
 
 ### bottom
 
-![alt text](Ladybug/bot.png)
-
-## Kids LED badge
-
-### top
-
-![alt text](Kids%20badge/top.png)
-
-### bottom
-
-![alt text](Kids%20badge/bot.png)
+![alt text](bot.png)

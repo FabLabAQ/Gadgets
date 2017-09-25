@@ -1,4 +1,4 @@
-## Merchandising
+	## Merchandising
 
 # [Tutorial](http://www.fablaquila.org/tutorial/come-assemblare-spille-circuito/)
 
@@ -7,7 +7,7 @@
 ### Final version images
 
 ![Ladybug final livery](Ladybug/ladybug_final.jpg)
-![Ladybug vs spinnert](Ladybug/ladybug_vs_spinner.gif)
+![Ladybug vs spinner](Ladybug/ladybug_vs_spinner.gif)
 
 ### top
 
