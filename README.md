@@ -4,6 +4,11 @@
 
 ## Ladybug bristlebot
 
+### Final version images
+
+![Ladybug final livery](Ladybug/ladybug_final.jpg)
+![Ladybug vs spinnert](Ladybug/ladybug_vs_spinner.mp4)
+
 ### top
 
 ![alt text](Ladybug/top.png)
