@@ -1,6 +1,7 @@
-	## Merchandising
+# PCBs courtesy of [CMT Energia Dinamica](http://www.cmtenergiadinamica.it/)
 
-# [Tutorial](http://www.fablaquila.org/tutorial/come-assemblare-spille-circuito/)
+## [Tutorial italiano](http://www.fablaquila.org/tutorial/come-assemblare-spille-circuito/)
+## [English tutorial](https://create.arduino.cc/projecthub/fablabaq/led-matrix-display-badge-280cfb?ref=team&ref_id=fablabaq&offset=0)
 
 ## Ladybug bristlebot
 
