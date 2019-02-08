@@ -16,13 +16,14 @@
 */
 
 /*~~~~~~~~~~~~ SCRIVI IL TUO NOME TRA VIRGOLETTE ~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~ WRITE YOUR NAME BETWEEN QUOTES ~~~~~~~~~~~~*/
 
 #define YOUR_NAME "FABLABAQ"
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 #ifndef __AVR_ATtiny13__
-	#error Selezionare ATtiny13 da: Strumenti -> Schede
+	#error Select ATtiny13 from: Tools -> Boards
 #endif
 
 // Character set
@@ -87,7 +88,7 @@ PROGMEM const unsigned long alphabet[] = {
 	0b10011001011000101100, // 89 Y
 	0b11110001001001001111,	// 90 Z
 	0b01100100010001000110,	// 91 [
-	0b10001100011000110001,	// 92 \
+	0b10001100011000110001,	// 92 backslash
 	0b01100010001000100110,	// 93 ]
 	0b01001010000000000000,	// 94 ^
 	0b00000000000000001111,	// 95 _
