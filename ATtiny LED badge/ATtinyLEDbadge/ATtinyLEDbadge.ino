@@ -20,6 +20,10 @@
 
 #define YOUR_NAME "FABLABAQ"
 
+/*~~~~~~~~~~~~ OPTIONAL: uncomment to test the entire character set ~~~~~~~~~~~~*/
+
+//#define TEST
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 #ifndef __AVR_ATtiny13__
@@ -131,7 +135,12 @@ const int displayHeight = 5;
 // between pixels
 const unsigned int timeout = 150;
 
-const char PROGMEM displayString[] = YOUR_NAME;
+#ifdef TEST
+	const char PROGMEM displayString[] = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
+#else
+	const char PROGMEM displayString[] = YOUR_NAME;
+#endif
+
 const byte stringLength = sizeof(displayString);
 
 // The offset of our string in the display
