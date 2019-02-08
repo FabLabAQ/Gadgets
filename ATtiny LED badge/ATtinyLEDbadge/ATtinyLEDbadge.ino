@@ -27,7 +27,7 @@
 #endif
 
 // Character set
-PROGMEM const unsigned long alphabet[] = {
+PROGMEM const __uint24 alphabet[] = {
 	0b00000000000000000000,	// 32 space
 	0b00100010001000000010,	// 33 !
 	0b01010101000000000000,	// 34 "
