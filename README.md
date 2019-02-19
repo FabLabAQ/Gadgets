@@ -3,6 +3,12 @@
 ## [Tutorial italiano](http://www.fablaquila.org/tutorial/come-assemblare-spille-circuito/)
 ## [English tutorial](https://create.arduino.cc/projecthub/fablabaq/led-matrix-display-badge-280cfb?ref=team&ref_id=fablabaq&offset=0)
 
+## ATtiny LoRa Node
+### top
+![alt text](ATtinyNode/PCB/top.jpg)
+### bottom
+![alt text](ATtinyNode/PCB/bot.jpg)
+
 ## Ladybug bristlebot
 
 ### Final version images
